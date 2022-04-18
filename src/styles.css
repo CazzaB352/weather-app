@@ -1,0 +1,50 @@
+body {
+  background: #9ba6df;
+}
+
+h1 {
+  position: fixed;
+  right: 300px;
+  background-color: yellow;
+  padding: 10px 50px;
+  border-radius: 30px;
+}
+p {
+  font-size: 60px;
+}
+hr {
+  border: 1px solid;
+}
+button {
+  color: #464a62;
+}
+.city {
+  margin-top: 20px;
+}
+.search {
+  height: 60px;
+}
+.current {
+  position: fixed;
+  right: 50px;
+  width: 200px;
+}
+.sun-cloud {
+  display: block;
+  margin: 5px 700px;
+}
+.otherDays {
+  position: fixed;
+  bottom: 5px;
+  right: 10px;
+  left: 10px;
+}
+.mon {
+  background: #464a62;
+  color: white;
+}
+
+.weds {
+  background: #464a62;
+  color: white;
+}
