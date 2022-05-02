@@ -13,7 +13,13 @@ let days = [
 
 let day = days[now.getDay()];
 let hour = now.getHours();
+if (hours < 10) {
+  hours = `0${hours}`;
+}
 let minutes = now.getMinutes();
+if (minutes < 10) {
+  minutes = `0${minutes}`;
+}
 h1.innerHTML = `${day} ${hour}:${minutes}`;
 
 function showTemp(response) {
