@@ -22,7 +22,7 @@ function showTemp(response) {
   let temperature = Math.round(response.data.main.temp);
   let temperatureElement = document.querySelector("#current-temp");
   let description = document.querySelector("#temp-description");
-  let iconElement = document.querySelector("#icon");
+  let iconElement = document.querySelector("#weatherIcon");
   temperatureElement.innerHTML = `${temperature}°C`;
   description.innerHTML = response.data.weather[0].description;
   document.querySelector("#wind").innerHTML = Math.round(
